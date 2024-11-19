@@ -19,3 +19,6 @@ let animale = ["dog","cat","bird"];
 console.log(animale);
 animale.pop();
 console.log(animale);
+//Exercice 6 
+let personne = { nom:"Wiame", age:22 };
+console.log(personne);
