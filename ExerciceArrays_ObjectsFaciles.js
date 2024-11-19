@@ -26,9 +26,26 @@ console.log(animale);
 console.log("----------------5");
 //Exercice 6 
 let personne = { nom:"Wiame", age:22 };
-console.log(personne);
 for(let cle in personne){
     console.log(cle);
 }
 console.log("----------------6");
-//Exercice 7
+//Exercice 7 
+let person = {nom:"John", age: 25}
+console.log(person);
+console.log("----------------7");
+//Exercice 8
+let book = {title:"JavaScript 101",author:"John Doe"}
+book.author = "Jane Doe";
+console.log(book);
+console.log("----------------8");
+//Exercice 9
+let car = {make:"Toyota",model:"Corolla"}
+car.year = 2020;
+console.log(car);
+console.log("----------------9");
+//Exercice 10 
+let person1 = {nom:"John", age: 25}
+console.log("age" in person1);
+console.log("----------------10");
+
