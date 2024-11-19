@@ -14,3 +14,8 @@ let frts = ["mango","peach","pear"];
 console.log(frts);
 frts[3] = "pomme";
 console.log(frts);
+//Exercice 5 
+let animale = ["dog","cat","bird"];
+console.log(animale);
+animale.pop();
+console.log(animale);
