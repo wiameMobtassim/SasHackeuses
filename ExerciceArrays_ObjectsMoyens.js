@@ -64,3 +64,11 @@ console.log("-------------19");
 //Exercice 19
 let tableau = [1, 2, 3, 4, 5];
 console.log(tableau.includes(3));
+
+console.log("-------------20");
+//Exercice 20
+let prsn = {nom1:"Roufayda" ,age1:25}
+let nouveauPrsn = {...prsn};
+nouveauPrsn.age1=30;
+console.log(prsn);
+console.log(nouveauPrsn);
