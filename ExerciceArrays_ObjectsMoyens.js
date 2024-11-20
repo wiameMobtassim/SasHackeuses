@@ -60,3 +60,7 @@ let person = {nom:"Wiame",age: 22 ,occupation:"developpeuse"}
 for (let cle in person){
     console.log(cle + ": " + person[cle]);
 }
+console.log("-------------19");
+//Exercice 19
+let tableau = [1, 2, 3, 4, 5];
+console.log(tableau.includes(3));
