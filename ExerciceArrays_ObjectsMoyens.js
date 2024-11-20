@@ -19,3 +19,8 @@ let tab1 = [1, 2, 3];
 let tab2 = [4, 5, 6];
 let fusion1 = tab1.concat(tab2);
 console.log(fusion1);
+console.log("-------------14");
+//Exercice 14 
+let fruits1 = ["apple","banana","cherry","date"];
+fruits1.splice(1,1);
+console.log(fruits1);
