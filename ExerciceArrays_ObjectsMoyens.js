@@ -43,3 +43,8 @@ console.log("-------------16");
 let nbrs1 = [1, 2, 3, 4];
 let multip = nbrs1.map(x=>x*2);
 console.log(multip);
+console.log("-------------17");
+//Exercice 17
+let car = {make:"Toyota",model:"Corolla",year: 2020, color:"purple"}
+let propriete = Object.keys(car).length;
+console.log(propriete);
