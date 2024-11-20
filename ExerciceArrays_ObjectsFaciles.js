@@ -45,3 +45,7 @@ console.log("----------------9");
 let car = {make:"Toyota",model:"Corolla"}
 car.year = 2020;
 console.log(car);
+console.log("----------------10");
+//Exercice 10 
+let person1 = {nom:"John", age: 25}
+console.log("age" in person1);
