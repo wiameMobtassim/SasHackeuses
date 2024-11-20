@@ -38,3 +38,8 @@ console.log("Methode 2");
 //Methode 2
 numbers1.sort((a, b) => a - b);
 console.log(numbers1);
+console.log("-------------16");
+//Exercice 16
+let nbrs1 = [1, 2, 3, 4];
+let multip = nbrs1.map(x=>x*2);
+console.log(multip);
