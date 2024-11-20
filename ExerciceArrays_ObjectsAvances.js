@@ -14,3 +14,5 @@ let livres = [
     {title:"dernier jour", author:"Hugo", year: 1729}
 ]
 console.log(livres[0]);
+console.log("-------------23");
+//Exercice 23
