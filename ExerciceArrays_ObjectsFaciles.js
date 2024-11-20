@@ -24,3 +24,9 @@ let animale = ["dog","cat","bird"];
 console.log(animale);
 animale.pop();
 console.log(animale);
+console.log("----------------6");
+//Exercice 6 
+let personne = { nom:"Wiame", age:22 };
+for(let cle in personne){
+    console.log(cle);
+}
