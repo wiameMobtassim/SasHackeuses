@@ -13,3 +13,9 @@ function estPair(n) {
 let numbersPairs = numbers.filter(estPair);
 console.log("les nombres " + numbers);
 console.log("les nombres pairs est "+ numbersPairs);
+console.log("-------------13");
+//Exercice 13
+let tab1 = [1, 2, 3];
+let tab2 = [4, 5, 6];
+let fusion1 = tab1.concat(tab2);
+console.log(fusion1);
