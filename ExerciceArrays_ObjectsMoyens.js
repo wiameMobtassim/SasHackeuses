@@ -24,3 +24,17 @@ console.log("-------------14");
 let fruits1 = ["apple","banana","cherry","date"];
 fruits1.splice(1,1);
 console.log(fruits1);
+console.log("-------------15");
+//Exercice 15 
+//Methode 1
+console.log("methode 1");
+let numbers1 = [5,1,8,4,7];
+function croissante(a,b){
+    return a-b;
+}
+numbers1.sort(croissante);
+console.log(numbers1);
+console.log("Methode 2");
+//Methode 2
+numbers1.sort((a, b) => a - b);
+console.log(numbers1);
