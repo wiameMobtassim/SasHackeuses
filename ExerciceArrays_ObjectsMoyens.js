@@ -56,3 +56,7 @@ console.log(propriete);
 
 console.log("-------------18");
 //Exercice 18
+let person = {nom:"Wiame",age: 22 ,occupation:"developpeuse"}
+for (let cle in person){
+    console.log(cle + ": " + person[cle]);
+}
