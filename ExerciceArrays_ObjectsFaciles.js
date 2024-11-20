@@ -33,4 +33,10 @@ for(let cle in personne){
 console.log("----------------7");
 //Exercice 7 
 let person = {nom:"John", age: 25}
-console.log(person);
+console.log(person.nom);
+console.log(person.age)
+console.log("----------------8");
+//Exercice 8
+let book = {title:"JavaScript 101",author:"John Doe"}
+book.author = "Jane Doe";
+console.log(book);
