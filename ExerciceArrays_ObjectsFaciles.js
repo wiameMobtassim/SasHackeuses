@@ -30,3 +30,7 @@ let personne = { nom:"Wiame", age:22 };
 for(let cle in personne){
     console.log(cle);
 }
+console.log("----------------7");
+//Exercice 7 
+let person = {nom:"John", age: 25}
+console.log(person);
