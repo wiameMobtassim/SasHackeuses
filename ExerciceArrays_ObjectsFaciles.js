@@ -12,3 +12,9 @@ let nbrs = [10, 20, 30, 40];
 console.log(nbrs);
 nbrs[2] = 50;
 console.log(nbrs);
+console.log("----------------4");
+//Exercice 4 
+let frts = ["mango","peach","pear"];
+console.log(frts);
+frts[3] = "pomme";
+console.log(frts);
