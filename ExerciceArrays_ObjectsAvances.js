@@ -14,5 +14,17 @@ let livres = [
     {title:"dernier jour", author:"Hugo", year: 1729}
 ]
 console.log(livres[0]);
-console.log("-------------23");
-//Exercice 23
+console.log("-------------28");
+//Exercice 28
+let person ={
+    name : "Wiame",
+    age: 22, 
+    city : "Deroua"
+}
+
+let keysPerson = Object.keys(person)
+console.log(keysPerson)
+
+let valuesPerson = Object.values(person)
+
+console.log(valuesPerson);
