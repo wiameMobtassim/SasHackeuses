@@ -48,3 +48,9 @@ console.log("-------------17");
 let car = {make:"Toyota",model:"Corolla",year: 2020, color:"purple"}
 let propriete = Object.keys(car).length;
 console.log(propriete);
+console.log("-------------18");
+//Exercice 18
+let person = {nom:"Wiame",age: 22 ,occupation:"developpeuse"}
+for (let cle in person){
+    console.log(cle + ": " + person[cle]);
+}
