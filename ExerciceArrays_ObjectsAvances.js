@@ -14,6 +14,16 @@ let livres = [
     {title:"dernier jour", author:"Hugo", year: 1729}
 ]
 console.log(livres[0]);
+console.log("-------------27");
+//Exercice 27
+let products = [
+    {name : 'pro1' , price : 50},
+    {name : 'pro2' , price : 150},
+    {name : 'pro3' , price : 20},
+    {name : 'pro4' , price : 500}
+]
+let expensiveProduct = products.filter(product => product.price < 100)
+console.log(expensiveProduct);
 console.log("-------------28");
 //Exercice 28
 let person ={
