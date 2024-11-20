@@ -40,3 +40,8 @@ console.log("----------------8");
 let book = {title:"JavaScript 101",author:"John Doe"}
 book.author = "Jane Doe";
 console.log(book);
+console.log("----------------9");
+//Exercice 9
+let car = {make:"Toyota",model:"Corolla"}
+car.year = 2020;
+console.log(car);
